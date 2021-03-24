@@ -47,29 +47,25 @@ function draw() {
 
         if(cword.charAt(0) === lowerCase.charAt(1) ||
             cword.charAt(0) === lowerCase.charAt(2) ||
-            cword.charAt(0) === lowerCase.charAt(3) ||
-            cword.charAt(0) === lowerCase.charAt(0)) {
+            cword.charAt(0) === lowerCase.charAt(3)) {
                 cows += 1;
             }
 
             if(cword.charAt(1) === lowerCase.charAt(0) ||
                 cword.charAt(1) === lowerCase.charAt(2) ||
-                cword.charAt(2) === lowerCase.charAt(3) || 
-                cword.charAt(1) === lowerCase.charAt(1)) {
+                cword.charAt(2) === lowerCase.charAt(3)) {
                     cows += 1;
             }
 
             if(cword.charAt(2) === lowerCase.charAt(0) ||
                 cword.charAt(2) === lowerCase.charAt(1) ||
-                cword.charAt(2) === lowerCase.charAt(3) || 
-                cword.charAt(2) === lowerCase.charAt(2)) {
+                cword.charAt(2) === lowerCase.charAt(3)) {
                     cows += 1;
             }
 
             if(cword.charAt(3) === lowerCase.charAt(0) ||
                 cword.charAt(3) === lowerCase.charAt(2) ||
-                cword.charAt(3) === lowerCase.charAt(1) || 
-                cword.charAt(3) === lowerCase.charAt(3)) {
+                cword.charAt(3) === lowerCase.charAt(1)) {
                     cows += 1;
             }
 
